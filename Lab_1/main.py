@@ -51,4 +51,4 @@ print(countries_highGDP_lowLE)
 # E
 countries_lowLE = data_2018[data_2018["Life expectancy"] < mean_le]
 print("Countries with low life expectancy:")
-print(countries_lowLE["Entity"] == "India".to_string())
+print(countries_lowLE["Entity"] == "India")
